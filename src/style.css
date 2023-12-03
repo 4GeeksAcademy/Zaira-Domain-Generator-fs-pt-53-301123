@@ -3,7 +3,8 @@ body {
   background-color: rgb(60, 150, 180);
   color: white;
 }
-h1 {
-  text-wrap: wrap;
-  word-wrap: break-word;
+#bordergif {
+  border: 30px solid transparent;
+  border-image: url(/src/assets/img/fireworks.gif) 30% round;
+  border-image-width: 30px;
 }
